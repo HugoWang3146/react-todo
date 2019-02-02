@@ -1,18 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
-// import App from "./App.js";
-// import TodoApp from "./TodoApp.js"
 import App from "./TodoApp-Redux/components/App"
 import rootReducer from './TodoApp-Redux/reducers'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
-// ReactDOM.render(
-//   <App />,
-//   document.getElementById("root")
-// );
-
+/* This is a version of todoApp without redux" */
+// import ReactDOM from "react-dom";
+// import TodoApp from "./TodoApp/TodoApp.js"
 // ReactDOM.render(
 //   <TodoApp />,
 //   document.getElementById("todo")
